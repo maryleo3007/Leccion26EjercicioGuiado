@@ -1,0 +1,72 @@
+body{
+  background-image: url("../img/kosmo.jpg");
+  repeat: no-repeat;
+  box-sizing: content-box;
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.container-fluid{
+  border: 2px solid white;
+  width: 450px;
+  margin-left: 30%;
+  padding: 10px;
+  height: 99%;
+}
+.sr-only{
+  font-size: 12px;
+  display: inline-block;
+  width: 100px;
+  margin: 20px 8px 8px 18px;
+  padding: 5px;
+}
+
+.form-control {
+  background: #e9f0f5;
+  background-image: -webkit-linear-gradient(top, #e9f0f5, #ccc0ca);
+  background-image: linear-gradient(to bottom, #e9f0f5, #ccc0ca);
+  border-radius: 8px;
+  box-shadow: 3px 4px 30px #b3adb3;
+  font-family: Arial;
+  color: #665f66;
+  font-size: 16px;
+  padding: 7px 16px 8px 16px;
+  text-decoration: none;
+  margin: 2px;
+
+}
+
+.form-control:hover {
+  background: #cdd1d4;
+  background-image: -webkit-linear-gradient(top, #cdd1d4, #f2eaf1);
+  background-image: linear-gradient(to bottom, #cdd1d4, #f2eaf1);
+  text-decoration: none;
+}
+
+.input-box {
+  position: relative;
+
+}
+.input-box span{
+  display: block;
+  background-color: rgba(51,51,51,0.8);
+  padding: 5px;
+  position: absolute;
+  left: 105%;
+  top: 8px;
+  width: 200px;
+  color: white;
+}
+
+.input-box span:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-right: 10px solid rgba(51,51,51,0.8);
+  border-bottom: 5px solid transparent;
+  position: absolute;
+  right: 100%;
+  top: 10px;
+}
